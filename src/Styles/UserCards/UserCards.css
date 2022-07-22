@@ -1,0 +1,59 @@
+.user-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 29px;
+  margin-bottom: 50px;
+}
+
+.user-card {
+  background-color: #FFFFFF;
+  width: 28.2%;
+  text-align: center;
+  padding: 20px;
+}
+
+.user-card img {
+  border-radius: 50%;
+}
+
+.user-card img,
+.user-card img + p {
+  margin-bottom: 20px;
+}
+
+.tooltip {
+  background-color: #212121;
+  color: #FFFFFF;
+  position: absolute;
+  padding: 1px 25px;
+  border-radius: 4px;
+}
+
+.v-h-center-container .btn {
+  height: 32px;
+  width: 120px;
+}
+
+@media screen and (max-width: 1230px) {
+  .user-card {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 730px) {
+  .user-card {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .user-card {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .user-cards {
+    justify-content: center;
+  }
+  .user-card {
+    width: 75%;
+  }
+}/*# sourceMappingURL=UserCards.css.map */

@@ -1,0 +1,21 @@
+/* Small selection of containers are located here 
+   As we don't use any variables I decided to use a regular css and not scss file
+*/
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.v-h-center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.h-center-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}

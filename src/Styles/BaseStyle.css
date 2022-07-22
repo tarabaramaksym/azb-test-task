@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+body {
+  background-color: #F8F8F8;
+  font-weight: 400;
+  line-height: 26px;
+  font-size: 16px;
+  font-family: "Nunito";
+}
+
+div,
+p,
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  background-color: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  width: inherit;
+  height: inherit;
+  min-width: inherit;
+  max-width: inherit;
+  padding: inherit;
+  text-decoration: inherit;
+}/*# sourceMappingURL=BaseStyle.css.map */

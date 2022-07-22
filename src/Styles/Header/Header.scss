@@ -1,0 +1,30 @@
+@import "../Variables/Colors.scss";
+
+// Header.js styles
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: $white;
+  display: flex;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  width: 100%;
+}
+
+
+.header-container .btn:first-child {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 380px) {
+
+  .header-container .btn:last-child {
+    margin-right: 10px;
+  }
+
+}

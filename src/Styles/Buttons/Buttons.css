@@ -1,0 +1,45 @@
+.btn {
+  border: none;
+  cursor: pointer;
+  border-radius: 80px;
+  font-size: inherit;
+  width: 100px;
+  text-align: center;
+  display: block;
+  height: 30px;
+  padding-top: 2px;
+}
+
+.btn-center {
+  margin: auto;
+}
+
+.btn:disabled {
+  background-color: #B4B4B4;
+  color: #FFFFFF;
+  cursor: default;
+}
+
+.btn-primary {
+  background-color: #F4E041;
+  color: #000000;
+}
+
+.btn-primary:enabled:hover {
+  background-color: #FFE302;
+}
+
+.btn-upload {
+  border: 1px solid #000000;
+  border-radius: 4px 0px 0px 4px;
+  height: 53px;
+  background-color: transparent;
+  width: 83px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.buttons-container {
+  display: flex;
+}/*# sourceMappingURL=Buttons.css.map */

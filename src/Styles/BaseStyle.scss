@@ -1,0 +1,34 @@
+@import './Variables/Colors.scss';
+@import './Variables/Fonts.scss';
+
+// Base styles for App.js and overall project
+
+body {
+  background-color: $background;
+  font-weight: $baseFontWeight;
+  line-height: $baseLineHeight;
+  font-size: $baseFontSize;
+  font-family: $baseFontFamily;
+}
+
+div,
+p,
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  background-color: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  width: inherit;
+  height: inherit;
+  min-width: inherit;
+  max-width: inherit;
+  padding: inherit;
+  text-decoration: inherit;
+}

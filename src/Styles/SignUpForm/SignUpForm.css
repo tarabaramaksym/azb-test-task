@@ -1,0 +1,45 @@
+.sign-up-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sign-up-form form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 380px;
+}
+
+@media screen and (max-width: 500px) {
+  .sign-up-form form {
+    width: 75%;
+  }
+}
+input:focus {
+  border: 1px solid #B4B4B4;
+  outline: none;
+}
+
+.phone-mask-label {
+  margin-top: -46px;
+  margin-bottom: 25px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #7E7E7E;
+  margin-left: 16px;
+}
+
+.radio-input {
+  margin-bottom: 7px;
+}
+
+.position-label {
+  margin-bottom: 11px;
+}
+
+form .btn-primary {
+  width: 100px;
+  align-self: center;
+  margin-bottom: 100px;
+}/*# sourceMappingURL=SignUpForm.css.map */

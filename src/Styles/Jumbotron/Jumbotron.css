@@ -1,0 +1,28 @@
+.jumbotron {
+  height: 650px;
+  text-align: center;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position-y: 100% !important;
+  margin-bottom: 140px;
+  padding: 16px;
+}
+
+.jumbotron div {
+  max-width: 380px;
+  color: #FFFFFF;
+}
+
+.jumbotron h1 {
+  margin-bottom: 21px;
+}
+
+.jumbotron p {
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 380px) {
+  .jumbotron {
+    height: 500px;
+  }
+}/*# sourceMappingURL=Jumbotron.css.map */

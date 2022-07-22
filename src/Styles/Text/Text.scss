@@ -1,0 +1,17 @@
+@import '../Variables/Colors.scss';
+@import '../Variables/Fonts.scss';
+
+// Different text classes and tags (p, h1 ...) are styled here
+
+.title {
+  font-weight: inherit;
+  font-size: $titleFontSize;
+  line-height: $titleLineHeight;
+
+}
+
+.margin-title {
+  margin-top: 140px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
