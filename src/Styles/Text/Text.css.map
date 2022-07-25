@@ -1,1 +1,1 @@
-{"version":3,"sources":["../Variables/Fonts.scss","Text.scss","Text.css"],"names":[],"mappings":"AAAQ,2EAAA;ACGR;EACE,oBAAA;EACA,eDEc;ECDd,iBDEgB;AEHlB;;ADKA;EACE,iBAAA;EACA,iBAAA;EACA,kBAAA;ACFF","file":"Text.css"}
+{"version":3,"sources":["../Variables/Fonts.scss","Text.scss","Text.css"],"names":[],"mappings":"AAAQ,2EAAA;ACKR;EACE,oBAAA;EACA,eDEc;ECDd,iBDEgB;AELlB;;ADOA;EACE,iBAAA;EACA,iBAAA;EACA,kBAAA;ACJF","file":"Text.css"}

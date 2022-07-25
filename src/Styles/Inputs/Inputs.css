@@ -3,6 +3,8 @@
   border-radius: 4px;
   padding: 14px 16px;
   margin-bottom: 50px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 input:-moz-placeholder-shown {
@@ -101,4 +103,21 @@ input:placeholder-shown {
 
 .input-container-file p {
   align-self: center;
+}
+
+.label-error {
+  position: absolute;
+  margin-top: -46px;
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: 14px;
+  color: #CB3D40;
+}
+
+.input-error {
+  border: 1px solid #CB3D40;
+}
+
+.label-phone {
+  margin-top: -30px;
 }/*# sourceMappingURL=Inputs.css.map */

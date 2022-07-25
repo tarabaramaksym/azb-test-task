@@ -7,6 +7,8 @@
   border-radius: 4px;
   padding: 14px 16px;
   margin-bottom: 50px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 input:placeholder-shown {
@@ -99,4 +101,21 @@ input:placeholder-shown {
 .input-container-file p {
   align-self: center;
 
+}
+
+.label-error {
+  position: absolute;
+  margin-top: -46px;
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: 14px;
+  color: $error;
+}
+
+.input-error {
+  border: 1px solid $error;
+}
+
+.label-phone {
+  margin-top: -30px;
 }
